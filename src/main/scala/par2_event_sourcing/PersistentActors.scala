@@ -5,7 +5,7 @@ import java.util.Date
 import akka.actor.{ActorLogging, ActorSystem, PoisonPill, Props}
 import akka.persistence.PersistentActor
 
-object PersistentActors extends App{
+object PersistentActors extends App {
 
   /*
   * we have a business and an accountant which keeps track of our invoices
